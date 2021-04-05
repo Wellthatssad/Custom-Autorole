@@ -1,0 +1,3 @@
+1:
+  command_start: "Give " #add a space at the end and no slash at the start
+  command_end: " netherite_ingot" #add a space at the start

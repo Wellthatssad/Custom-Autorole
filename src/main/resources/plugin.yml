@@ -1,0 +1,12 @@
+name: Custom_Autorole
+version: ${project.version}
+main: custom_autorole.custom_autorole.CustomAutorole
+api-version: 1.16
+prefix: "CAR"
+authors: [ Well_thatssad ]
+description: "Custom autorole with config :)"
+commands:
+  Autorole:
+    usage: "Usage: /<command> [1|2|3|4|...] <Username>"
+
+
