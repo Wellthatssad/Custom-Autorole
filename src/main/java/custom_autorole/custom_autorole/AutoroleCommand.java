@@ -13,6 +13,10 @@ public class AutoroleCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
+        if(!sender.isOp()){
+            sender.sendMessage("you do not have permission to do this command");
+            return true;
+        }
         if(args.length < 1){
             System.out.print("Wrong Usage: ");
             return false;
